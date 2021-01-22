@@ -8,7 +8,7 @@ public interface StudentService {
 
     List<Student> getStudentsList();
     Student newStudent(Student student);
-    boolean removeStudent(Student student);
+    void removeStudent(Long id);
     Student updateStudent(Student student);
 
 }
