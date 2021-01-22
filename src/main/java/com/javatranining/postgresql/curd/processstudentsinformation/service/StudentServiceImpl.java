@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class StudentServiceImpl implements StudentService{
+public class StudentServiceImpl implements StudentService {
 
     @Autowired
     StudentRepository studentRepository;
@@ -25,7 +25,7 @@ public class StudentServiceImpl implements StudentService{
 
     @Override
     public void removeStudent(Long id) {
-         studentRepository.deleteById(id);
+        studentRepository.deleteById(id);
     }
 
     @Override
